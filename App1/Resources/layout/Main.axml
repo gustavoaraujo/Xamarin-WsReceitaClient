@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="5"
+    android:columnCount="3">
+    <EditText
+        android:inputType="number"
+        android:layout_width="293.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtNumeroReceita"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:layout_columnSpan="2" />
+    <Button
+        android:id="@+id/MyButton"
+        android:layout_width="90.5dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Buscar"
+        android:layout_column="2"
+        android:layout_row="0" />
+    <TextView
+        android:text="Data: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView1"
+        android:layout_column="0"
+        android:layout_row="1" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/txData"
+        android:layout_row="1"
+        android:layout_column="1" />
+    <TextView
+        android:text="Núm. Receita: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView1"
+        android:layout_column="0"
+        android:layout_row="2" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/txNumReceita"
+        android:layout_row="2"
+        android:layout_column="1" />
+    <TextView
+        android:text="Utilizada: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView1"
+        android:layout_column="0"
+        android:layout_row="3" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/txUtilizada"
+        android:layout_row="3"
+        android:layout_column="1" />
+    <TextView
+        android:text="Cancelada: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView1"
+        android:layout_column="0"
+        android:layout_row="4" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/txCancelada"
+        android:layout_row="4"
+        android:layout_column="1" />
+</GridLayout>
